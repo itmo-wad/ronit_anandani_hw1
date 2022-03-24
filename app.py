@@ -5,7 +5,7 @@ app = Flask(__name__)
 def home():
     return "Hi there"  
 
-@app.route('/contact')
+@app.route('/profile')
 def about():
     return render_template('contact.html')
 
