@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(images/Fire\ and\ ice\ ps.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top h1{
+    color: rgb(255, 255, 255);
+    font-size: 4ch;
+    
+    
+    padding-top: 5em;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.mid{
+    background: #F23030;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.mid h2{
+    color: rgb(255, 255, 255);
+    font-size: 4ch;
+
+    
+    padding-left: 9em;
+    
+    text-align: left;
+}
+.mid p{
+    color: rgb(255, 255, 255);
+    font-size: 2ch;
+    padding-left: 21em;
+    padding-right: 21em;
+    text-align: left;
+    
+}
+.mid b{
+    font-size: 4ch;
+}
+
+.myart{
+    background: #F28705;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+.myart h2{
+    color: rgb(255, 255, 255);
+    font-size: 4ch;
+
+    
+    padding-left: 9em;
+    
+    text-align: left;
+}    
+.row{
+    padding-left: 25em;
+    padding-right: 25em;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.art-col{
+    width: 30em;
+    height: 15em;
+    background: #E8B558;
+    flex-basis: auto;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.art-col img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+ }
+
+
+ .about{
+    background: #F29F05;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.about h2{
+    color: rgb(0, 0, 0);
+    font-size: 4ch;
+
+    
+    padding-left: 9em;
+    
+    text-align: left;
+}
+.about p{
+    color: rgb(0, 0, 0);
+    font-size: 2ch;
+    padding-left: 21em;
+    padding-right: 21em;
+    text-align: left;
+    
+}
+.about b{
+    color: #267365;
+}
+
+
+.contact{
+    background: #F2CB05;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+
+.contact h2{
+    color: rgb(0, 0, 0);
+    font-size: 4ch;
+
+    
+    padding-left: 9em;
+    
+    text-align: left;
+}
+.contact p{
+    color: rgb(0, 0, 0);
+    font-size: 2ch;
+    padding-left: 21em;
+    padding-right: 21em;
+    text-align: left;
+    
+}
